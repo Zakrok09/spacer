@@ -41,7 +41,7 @@ All contributions go through a code review process. Be prepared to address feedb
 
 ## License
 
-By contributing, you agree that your contributions will be licensed under the project's [LICENSE](LICENSE).
+By contributing, you agree that your contributions will be licensed under the project's [LICENSE](../LICENSE).
 
 ---
 
