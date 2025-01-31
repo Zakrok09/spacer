@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="tauri dev" type="js.build_tools.npm" nameIsGenerated="true">
+    <package-json value="$PROJECT_DIR$/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="tauri" />
+    </scripts>
+    <arguments value="dev" />
+    <node-interpreter value="project" />
+    <envs />
+    <EXTENSION ID="com.fapiko.jetbrains.plugins.better_direnv.runconfigs.NodeRunConfiguration">
+      <option name="DIRENV_ENABLED" value="true" />
+      <option name="DIRENV_TRUSTED" value="false" />
+    </EXTENSION>
+    <method v="2" />
+  </configuration>
+</component>
