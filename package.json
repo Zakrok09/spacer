@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-    "tauri": "tauri"
+    "tauri": "tauri",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "license": "MIT",
   "dependencies": {
@@ -17,11 +19,19 @@
     "@tauri-apps/plugin-opener": "^2"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^8.5.2",
+    "@storybook/addon-interactions": "^8.5.2",
+    "@storybook/addon-svelte-csf": "^5.0.0-next.23",
+    "@storybook/blocks": "^8.5.2",
+    "@storybook/svelte": "^8.5.2",
+    "@storybook/sveltekit": "^8.5.2",
+    "@storybook/test": "^8.5.2",
     "@sveltejs/adapter-static": "^3.0.6",
     "@sveltejs/kit": "^2.9.0",
     "@sveltejs/vite-plugin-svelte": "^5.0.0",
     "@tailwindcss/vite": "^4.0.0",
     "@tauri-apps/cli": "^2",
+    "storybook": "^8.5.2",
     "svelte": "^5.0.0",
     "svelte-check": "^4.0.0",
     "tailwindcss": "^4.0.0",
