@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/Inter-VariableFont_opsz,wght.ttf");
+}
+
+@theme {
+    --color-surface-50: #F2F2F2;
+    --color-surface-100: #E6E6E6;
+    --color-surface-200: #CCCCCC;
+    --color-surface-300: #B0B0B0;
+    --color-surface-400: #969696;
+    --color-surface-500: #7D7D7D;
+    --color-surface-600: #363636;
+    --color-surface-700: #2B2B2B;
+    --color-surface-800: #1a1a1a;
+    --color-surface-900: #171212;
+    --color-surface-950: #0A0A0A;
+
+    --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+}
