@@ -3,4 +3,6 @@
     import "../app.css";
 </script>
 
-{@render children()}
+<div class="flex text-surface-100 bg-surface-900 font-sans">
+    {@render children()}
+</div>

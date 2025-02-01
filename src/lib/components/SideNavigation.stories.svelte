@@ -1,6 +1,6 @@
 <script lang="ts">
     import { defineMeta } from "@storybook/addon-svelte-csf";
-    import SideBar from "./SideBar.svelte";
+    import SideBar from "./SideNavigation.svelte";
 
     const { Story } = defineMeta({
         component: SideBar
